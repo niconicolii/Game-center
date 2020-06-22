@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/starting_background">
+
+    <TextView
+        android:id="@+id/GameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="85dp"
+        android:gravity="center"
+        android:text="Welcome To Sliding Tiles \n A Puzzle Game where you must arrange the numbers in the correct order"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/StartButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/GameText"
+        android:layout_marginEnd="100dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="85dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="New Game"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/SaveButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/StartButton"
+        android:layout_marginEnd="100dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="25dp"
+        android:background="@color/colorAccent"
+        android:text="Load/Save"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/global_score_button"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/SaveButton"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="100dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Scoreboard"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+</RelativeLayout>
