@@ -6,7 +6,7 @@ GameLauncher app
 
 ### Starting the application
 
-* git clone https://markus.teach.cs.toronto.edu/git/csc207-2018-09-reg/group_0627
+* git clone https://github.com/niconicolii/Game-center.git
 * open android studio
 * set AVD
 * run app on Android Simulator
